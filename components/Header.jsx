@@ -12,7 +12,7 @@ const menuItems = [
 const Header = () => {
   const [isMobile, setIsMobile] = useState(false)
   return (
-    <header className='w-full bg-slate-50 border-b border-slate-900/5 sticky top-0'>
+    <header className='w-full bg-slate-50 border-b border-slate-900/5 sticky top-0 z-50'>
       <div className='sm:container mx-auto sm:px-6 px-3 relative'>
         <nav className="flex justify-between items-center h-20">
           <div className='cursor-pointer'>

@@ -16,7 +16,7 @@ const gallery = () => {
         <h1 className='uppercase text-gray-500 font-bold text-center py-3 sm:text-6xl text-5xl'>gallery</h1>
         <div className='grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-2'>
           {images.map((data, key) => (
-            <div className='w-full p-1 md:p-2' key={key}>
+            <div className='w-full p-1 md:p-2 z-0' key={key}>
               <Image
                 alt={data.url}
                 width={4}
